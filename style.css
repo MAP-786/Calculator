@@ -1,0 +1,116 @@
+body
+{
+    background-color: whitesmoke;
+}
+.head
+{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;   
+}
+.calculatorbackground
+{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.numoperators
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 500px;
+    max-height: 500px;
+    border: 2px solid;
+    background-color:gray;
+
+}
+
+.calculatordisplay
+{
+    display: flex;
+    flex-direction: column;
+    min-height:50px;
+    background-color: whitesmoke;
+    margin-top: 30px;
+    padding-top: 20px;
+    text-align: end;
+}
+#dtop
+{
+    font-size: 30px;
+}
+#dbottom
+{
+    min-height: 20px;
+}
+.clearbackspace
+{
+    display: flex;
+    min-width: 300px;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 5px;
+
+}
+
+
+#clear, #backspace
+{
+    background-color: lightblue;
+
+    min-width: 140px;
+    min-height: 50px;
+    border:2px solid;
+    transition-duration: 0.4s;
+}
+
+#clear
+{
+    background-color: bisque;
+}
+
+.firstrow, .secondrow, .thirdrow, .fourthrow
+{
+    display: flex;
+    min-width: 300px;
+    justify-content: space-around;
+    padding-top: 5px;
+} 
+.fourthrow
+{
+    padding-bottom: 10px;
+}
+
+#decimal, #zero, #equals, #addition, #one , #two, #three, #subtraction, #four, #five, #six, #multiplication, #seven , #eight, #nine, #division
+{
+    background-color: whitesmoke;
+    padding: 15px 32px;
+    max-width: 70px;
+    max-height: 60px;
+    border:2px solid;
+    transition-duration: 0.4s;
+
+}
+
+
+#addition, #subtraction , #multiplication, #division
+{
+    background-color: darkcyan
+    
+}
+
+
+
+  
+#decimal:hover, #zero:hover, #equals:hover, #one:hover , #two:hover, #three:hover, #four:hover, #five:hover, #six:hover, #seven:hover, #eight:hover, #nine:hover
+{
+    background-color: #4CAF50; /* Green */
+    color: black;
+}
+
+#addition:hover, #subtraction:hover, #multiplication:hover, #division:hover, #clear:hover, #backspace:hover
+{
+    background-color: darkkhaki
+}
+
